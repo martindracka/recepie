@@ -1,2 +1,2 @@
 # recepie
- html/css
+this page is about RECEPIE, I m still editing that page 
