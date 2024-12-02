@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="about-us.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <title>About Us - Recipe Webpage</title>
+</head>
+<body>
+  <div class="container">
+    
+    <nav class="navigation">
+      <div class="menu-container">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="recipe-details.html">Recipes</a></li>
+          <li><a href="about-us.html" class="active">About Us</a></li>
+        </ul>
+      </div>
+    </nav>
+
+   
+    <section class="image-section">
+      <img src="IMG/Cheff.png" alt="About Us Image" class="top-image">
+    </section>
+
+    
+    <section class="form-section">
+      <div class="form-container">
+        <h2 class="contact-title">Have Any Questions?</h2>
+        <p>Feel free to reach out! We're here to answer any questions you have about our recipes, cooking tips, or anything else. Let's make your culinary journey delicious and enjoyable!</p>
+
+        <form id="contact-form" method="POST">
+          <input type="hidden" name="form-name" value="contactForm">
+          <div class="form-group">
+            <input type="text" name="name" class="form-control" placeholder="Enter Your Name *" required>
+          </div>
+          <div class="form-group">
+            <input type="email" name="email" class="form-control" placeholder="Enter Your Email *" required>
+          </div>
+          <div class="form-group">
+            <textarea rows="4" name="message" class="form-control" placeholder="Enter Your Message *" required></textarea>
+          </div>
+          <button class="btn-big btn btn-bg">Send Us <i class="fas fa-arrow-right"></i></button>
+        </form>
+
+        <div class="contact-info">
+          <ul class="contact-info-list">
+            <li>
+              <i class="fas fa-mobile-alt"></i> +45 94 53 29 43
+            </li>
+            <li>
+              <i class="fas fa-at"></i> info@easv.com
+            </li>
+            <li>
+              <i class="fas fa-map-marker-alt"></i> Spangsbjerg Kirkevej 103, 6700 Esbjerg
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+   
+    <footer class="application-footer">
+      <div class="social-buttons">
+        <a href="https://www.youtube.com" target="_blank">YouTube</a>
+        <a href="https://www.instagram.com" target="_blank">Instagram</a>
+        <a href="https://www.facebook.com" target="_blank">Facebook</a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

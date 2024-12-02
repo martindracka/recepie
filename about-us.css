@@ -1,0 +1,139 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.navigation {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
+
+.navigation .menu-container ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation .menu-container ul li {
+  margin: 0 15px;
+}
+
+.navigation .menu-container ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.image-section .top-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.form-section {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.form-section .form-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-section .contact-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.form-section .form-group {
+  margin-bottom: 20px;
+}
+
+.form-section .form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-section .btn {
+  padding: 10px 20px;
+  color: white;
+  background-color: #333;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-info-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 0 0;
+}
+
+.contact-info-list li {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .navigation .menu-container ul {
+    flex-direction: column; /* Zmeniť rozloženie na stĺpec */
+    align-items: center;
+  }
+
+  .navigation .menu-container ul li {
+    margin: 10px 0; /* Zvýšiť medzery medzi položkami menu */
+  }
+
+  .form-section {
+    padding: 20px 10px; /* Znížiť padding pre menšie obrazovky */
+  }
+
+  .form-section .contact-title {
+    font-size: 20px; /* Zmenšiť veľkosť fontu */
+  }
+
+  .form-section .btn {
+    width: 100%; /* Tlačidlo bude na šírku kontajnera */
+  }
+
+  .contact-info-list li {
+    font-size: 14px; /* Zmenšiť veľkosť fontu kontaktnej sekcie */
+  }
+}
+
+@media (max-width: 480px) {
+  .navigation .menu-container ul li {
+    margin: 8px 0; /* Ďalšie zmenšenie medzier na menších zariadeniach */
+  }
+
+  .form-section .contact-title {
+    font-size: 18px; /* Ešte menšia veľkosť fontu pre titulok */
+  }
+
+  .form-section {
+    padding: 15px 10px; /* Ďalšie zmenšenie paddingu */
+  }
+
+  footer {
+    font-size: 14px; /* Zmenšiť veľkosť textu vo footeri */
+  }
+}
